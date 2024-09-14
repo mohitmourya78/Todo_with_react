@@ -1,0 +1,26 @@
+/* src/components/NoteForm.css */
+.note-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  
+  .note-form input {
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 15px
+  }
+  
+  .note-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px;
+    background-color: #003135;
+    border-radius: 13px;
+    cursor: pointer;
+
+  }
+   

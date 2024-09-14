@@ -1,0 +1,13 @@
+/* src/components/NoteApp.css */
+.note-app {
+    text-align: center;
+    max-width: 662px;
+    margin: 2px auto;
+    padding: 47px;
+    min-height: 100vh; 
+  }
+  
+  .note-list {
+    margin-top: 20px;
+  }
+   

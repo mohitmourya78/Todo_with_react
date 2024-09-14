@@ -1,0 +1,40 @@
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #1e1c1c;
+  border-radius: 20px;
+  flex-wrap: wrap; 
+}
+
+input:focus {
+  outline: none;
+  border-color: #0fa4af;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.note p {
+  margin: 0;
+  overflow-wrap: break-word;  
+  background: transparent;    
+}
+ 
+.note button {
+  padding: 8px 14px;
+  margin-left: 13px;
+  border: 2px;
+  background-color: #003135;
+  border-radius: 13px; 
+  cursor: pointer;
+}
+
+.note input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 15px;
+}
